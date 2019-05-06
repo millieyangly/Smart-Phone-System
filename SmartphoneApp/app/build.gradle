@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+
+    defaultConfig {
+        applicationId "com.example.millie.smartshoppingmall_yly"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+
+
+
+    dependencies {
+        compile fileTree(dir: 'libs', include: ['*.jar'])
+        testCompile 'junit:junit:4.12'
+        compile 'com.android.support:appcompat-v7:23.4.0'
+        compile 'com.android.support:design:23.2.1'
+        compile 'com.github.devlight.navigationtabbar:navigationtabbar:1.2.2'
+        // compile file('lib/httpcore-4.3-beta1.jar')
+
+    }
+    defaultConfig {
+        multiDexEnabled true
+    }
+
+
+
+    }
+
+//dependencies {
+//    compile files('libs/org.apache.http.legacy.jar')
+//    compile files('libs/poi-3.8-20120326.jar')
+//    compile files('libs/poi-ooxml-3.8-20120326.jar')
+//    compile files('libs/poi-scratchpad-3.8-20120326.jar')
+//    compile files('libs/xmlbeans-2.3.0.jar')
+//}
