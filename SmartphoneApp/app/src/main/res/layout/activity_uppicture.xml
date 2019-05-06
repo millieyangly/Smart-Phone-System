@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="问题描述"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+    <EditText
+        android:layout_height="100dp"
+        android:layout_width="360dp"
+        android:hint="请在这里添加问题的反馈描述"
+        android:background="#ffffff"
+        android:id="@+id/fankui"
+        android:gravity="top|left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:text="拍摄照片"
+        android:textSize="15sp"
+        android:background= "@color/colorPrimary"
+        android:id="@+id/takephoto"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:text="选择图片"
+        android:textSize="15sp"
+        android:background= "@color/colorPrimary"
+        android:id="@+id/selectImage"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="显示照片"
+        android:textSize="18sp"
+
+        android:textColor="#c2c2c2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:hint="图片上传"
+        android:id="@+id/imageView"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="提交反馈"
+        android:textSize="15sp"
+        android:background= "#67c0ff"
+        android:id="@+id/myButton"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="575dp"></RelativeLayout>
+
+    <include
+        layout="@layout/content_fankui" />
+
+    <!--TextView
+        android:id="@+id/myText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="文件上传范例："
+        android:textSize="20sp"
+        android:textColor="@drawable/black"
+        android:layout_x="10px"
+        android:layout_y="12px"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/myText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@drawable/black"
+        android:layout_x="10px"
+        android:layout_y="52px"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/myText3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@drawable/black"
+        android:layout_x="10px"
+        android:layout_y="102px"
+        >
+    </TextView-->
+
+
+
+
+</LinearLayout>

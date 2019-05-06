@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d5f2e4"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text = "登录"
+        android:textColor="#59ac86"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_weight="0.33" />
+
+    <EditText
+        android:id="@+id/IP"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#b6dcca"
+        android:gravity="center|left"
+        android:textColor="#ffffff"
+        android:hint="输入服务器IP"
+        android:layout_marginTop="30dp" />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#b6dcca"
+        android:gravity="center|left"
+        android:hint="输入手机号"
+        android:layout_marginTop="20dp" />
+
+
+    <Button
+        android:id="@+id/comein"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:textSize="20sp"
+        android:text="点击登录"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp" />
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="注册新账号"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp" />
+
+
+</LinearLayout>

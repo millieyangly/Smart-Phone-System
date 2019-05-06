@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="拍摄照片"
+        android:textSize="15sp"
+        android:background= "@color/colorPrimary"
+        android:id="@+id/takephoto"
+        />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="选择图片"
+        android:textSize="15sp"
+        android:background= "@color/colorPrimaryDark"
+        android:id="@+id/selectImage"
+        />
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="提交反馈"
+        android:background= "@color/colorPrimary"
+        android:textSize="15sp"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">智能超市</string>
+
+
+    <string name="action_settings">拍照反馈</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
